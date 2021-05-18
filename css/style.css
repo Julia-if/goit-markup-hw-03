@@ -43,6 +43,10 @@ body {
 .link {
   text-decoration: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* === COMPONENTS=== */
 .section-title {
   font-size: 36px;
@@ -62,6 +66,7 @@ body {
 .header {
   padding-top: 28px;
   padding-bottom: 30px;
+  border-bottom: 1px solid #ececec;
 }
 .header-nav {
   display: flex;
@@ -136,6 +141,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-hero-title);
+  width: 696px;
+  margin: 0px auto 30px auto;
 }
 .modal-btn {
   font-family: var(--main-font);
@@ -147,6 +154,10 @@ body {
   color: var(--color-hero-title);
   background: #188ce8;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin: 0px auto;
+  display: block;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -160,6 +171,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .skills-description {
   font-size: 14px;
@@ -167,6 +179,20 @@ body {
   line-height: 1.71;
   color: var(--description-color);
 }
+.skills {
+  padding-bottom: 47px;
+}
+.skills-list {
+  display: flex;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+.skills-list-item {
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
 /* === END skills=== */
 
 /* === Our team=== */
