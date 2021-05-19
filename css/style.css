@@ -89,7 +89,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  margin-right: 100px;
+  margin-right: 93px;
 }
 .logo-colorblack {
   color: var(--logo-color);
@@ -133,6 +133,8 @@ body {
 /* == HERO=== */
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -228,12 +230,8 @@ body {
   flex-basis: calc((100% - 120px) / 4);
 }
 .team-list-content {
-  display: flex;
-  flex-direction: column;
   padding-top: 30px;
   padding-bottom: 30px;
-  align-items: center;
-  justify-content: space-between;
   background-color: var(--color-hero-title);
 }
 .team-list-title {
@@ -241,12 +239,13 @@ body {
   font-size: 16px;
   line-height: 1.19;
   margin-bottom: 10px;
+  text-align: center;
 }
 .team-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.19;
-
+  text-align: center;
   color: var(--description-color);
 }
 /* === END our team=== */
@@ -257,7 +256,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  /* text-align: center; */
+
   color: var(--title-color);
   cursor: pointer;
   border-radius: 4px;
@@ -267,26 +266,25 @@ body {
   color: var(--color-hero-title);
   background: var(--accent-color);
 }
-.menu-portfolio {
+.portfolio-content {
   padding-top: 94px;
-  padding-bottom: 17px;
+  padding-bottom: 94px;
 }
+
 .menu-portfolio-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 .menu-portfolio-item {
   justify-content: center;
 }
 .menu-portfolio-item:not(:last-child) {
-  padding-right: 8px;
+  margin-right: 8px;
 }
 /* =====End menu-portfolio====== */
 /* =====Examples====== */
-.examples {
-  padding-top: 17px;
-  padding-bottom: 94px;
-}
+
 .examples-list {
   display: flex;
   flex-wrap: wrap;
@@ -322,6 +320,12 @@ body {
   padding-bottom: 60px;
 }
 .logo-footer {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -331,6 +335,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-hero-title);
+}
+.address-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-email-link,
