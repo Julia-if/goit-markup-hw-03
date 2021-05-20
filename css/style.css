@@ -266,11 +266,6 @@ body {
   color: var(--color-hero-title);
   background: var(--accent-color);
 }
-.portfolio-content {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .menu-portfolio-list {
   display: flex;
   justify-content: center;
@@ -282,9 +277,6 @@ body {
 .menu-portfolio-item:not(:last-child) {
   margin-right: 8px;
 }
-/* =====End menu-portfolio====== */
-/* =====Examples====== */
-
 .examples-list {
   display: flex;
   flex-wrap: wrap;
@@ -312,7 +304,7 @@ body {
 .examles-list-content {
   padding: 20px 24px;
 }
-/* =====End examples====== */
+/* =====End menu-portfolio====== */
 /* === FOOTER=== */
 .footer {
   background: #2f303a;
